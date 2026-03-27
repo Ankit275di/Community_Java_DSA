@@ -7,6 +7,5 @@ public class NumericInvertedHalfPyramid {
             }
             System.out.println();
         }
-        System.out.println("oK Done");
     }
 }
