@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class SecondLargestElement {
    static Scanner sc = new Scanner(System.in);
    public static void main(String args[]){
-      System.out.print("FINDING SECOND LARGEST NUMBER");
+      System.out.print("FINDING SECOND LARGEST NUMBER: ");
       int sizeOfArr = sc.nextInt();
 
       int arr[] = new int[sizeOfArr];
-      System.out.print("ENTER THE ARRAY ELEMENTS");
+      System.out.print("ENTER THE ARRAY ELEMENTS: ");
       for(int i=0; i<sizeOfArr; i++){
          arr[i] = sc.nextInt();
       }
@@ -20,6 +20,6 @@ public class SecondLargestElement {
       }
 
       // /displaying the second largest number
-      System.out.print("DISPLAYING THE SECOND LARGEST NUMBER: " + arr[1]);
+      System.out.print("\nDISPLAYING THE SECOND LARGEST NUMBER: " + arr[1]);
    }
 }
