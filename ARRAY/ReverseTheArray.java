@@ -9,7 +9,7 @@ public class ReverseTheArray {
         }
 
         System.out.print("Reversed Array: ");
-        for(int i=4; i>=0; i--){
+        for(int i=arr.length; i>=0; i--){
             System.out.print(arr[i] + " ");
         }
     }
