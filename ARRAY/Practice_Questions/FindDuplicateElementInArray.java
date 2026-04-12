@@ -30,5 +30,7 @@ public class FindDuplicateElementInArray {
         }if(!found){
                     System.out.println("Did not found any elements");
                 }
+
+        System.out.println("Lets Add something new algos here");
     }
 }
