@@ -17,5 +17,18 @@ public class FindDuplicateElementInArray {
         for(int i=0; i<sizeOfArray; i++){
             System.out.print(arr[i] + " ");
         }
+
+        System.out.println("FINDING THE DUPLICATE ITEMS");
+        boolean found = false;
+        for(int i=0; i<sizeOfArray; i++){
+            for(int j=1+i; j<sizeOfArray; j++){
+                if(arr[i] == arr[j]){
+                    System.out.println("Found Duplicate Item");
+                    found = true;
+                }
+            }
+        }if(!found){
+                    System.out.println("Did not found any elements");
+                }
     }
 }
