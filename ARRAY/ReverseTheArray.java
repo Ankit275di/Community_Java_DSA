@@ -4,7 +4,7 @@ public class ReverseTheArray {
     public static void main(String args[]){
         System.out.print("Enter the Array Elements: ");
         int arr[] = new int[4];
-        for(int i=0; i<4; i++){
+        for(int i=0; i<arr.length; i++){
             arr[i] = sc.nextInt();
         }
 
