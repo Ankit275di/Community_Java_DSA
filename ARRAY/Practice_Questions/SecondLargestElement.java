@@ -20,6 +20,6 @@ public class SecondLargestElement {
       }
 
       // /displaying the second largest number
-      System.out.print("DISPLAYING THE SECOND LARGEST NUMBER: " + arr[2]);
+      System.out.print("DISPLAYING THE SECOND LARGEST NUMBER: " + arr[1]);
    }
 }
