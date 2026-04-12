@@ -23,7 +23,7 @@ public class FindDuplicateElementInArray {
         for(int i=0; i<sizeOfArray; i++){
             for(int j=1+i; j<sizeOfArray; j++){
                 if(arr[i] == arr[j]){
-                    System.out.println("Found Duplicate Item");
+                    System.out.println("Found Duplicate Item: " + arr[i] + " " + arr[i]);
                     found = true;
                 }
             }
