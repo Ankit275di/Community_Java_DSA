@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 public class FindDuplicateItemAndDel{
 
@@ -18,7 +19,12 @@ public class FindDuplicateItemAndDel{
         for(int i=0; i<n; i++){
             System.out.print(arr[i]+" ");
         }
-
+         
+        Arrays.sort(arr);
+        System.out.println("Sorted Array Displaying: ");
+        for(int i=0; i<n; i++){
+            System.out.print(arr[i]+" ");
+        }
 
     }
 }
