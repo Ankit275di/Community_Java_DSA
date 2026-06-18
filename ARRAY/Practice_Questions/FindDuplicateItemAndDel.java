@@ -21,9 +21,16 @@ public class FindDuplicateItemAndDel{
         }
          
         Arrays.sort(arr);
-        System.out.println("Sorted Array Displaying: ");
+
+        System.out.println("\nSorted Array Displaying: ");
         for(int i=0; i<n; i++){
             System.out.print(arr[i]+" ");
+        }
+
+        // duplicate item finder 
+        System.out.println("Duplicate Item Finder: ");
+        for(int i=0; i<n; i++){
+            
         }
 
     }
