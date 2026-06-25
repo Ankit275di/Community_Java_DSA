@@ -8,3 +8,10 @@ console.log(z)
 let name = "Ankit mandal"
 let surname = "Mandal"
 console.log(name , " ", surname)
+
+// statements 
+let x,y,z;
+x = 4;
+y = 3;
+z = x+y;
+console.log(z)
